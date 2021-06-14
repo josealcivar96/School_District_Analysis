@@ -8,9 +8,9 @@ The purpose of the following analysis is to interpret and understand the changes
 
 Overall, it was discovered that the summary results from the district, school as well as performance didn't see much significant change:
 
-- The District summary [before](link) and [after](link) removing the students' scores remains largely the same, with the only significant difference being that the percentage of passing overall drops from **65.2%** to **64.9%**
-- The school summary [before](link) and [after](link) removing students' scores has **no** significant change, the overall passing rate remains mostly the same, dropping from **90.9%** to **90.6%**, the math passing rate from **93.3%** to **93.2%** and the reading passing rate from **97.3%** to **97.0%**.
-- Even though their overall passing rate dropped, Thomas High School remains [2nd place](link) among the top schools based on overall passing rate. 
+- The District summary [before](resources/imgs/district_summary_before.png) and [after](resources/imgs/district_summary_after.png) removing the students' scores remains largely the same, with the only significant difference being that the percentage of passing overall drops from **65.2%** to **64.9%**
+- The school summary [before](resources/imgs/school_summary_before.png) and [after](resources/imgs/school_summary_after.png) removing students' scores has **no** significant change, the overall passing rate remains mostly the same, dropping from **90.9%** to **90.6%**, the math passing rate from **93.3%** to **93.2%** and the reading passing rate from **97.3%** to **97.0%**.
+- Even though their overall passing rate dropped, Thomas High School remains [2nd place](resources/imgs/top_schools_after.png) among the top schools based on overall passing rate. 
 - Replacing the 9th grade scores with null scores and running the analysis does **not** change the overall scores by grade, it only deletes that data point for 9th graders in Thomas High School and it has **no** effect on the scores of school by spending (Thomas High School falls into the range of $630-644 per capita), by size (Thomas High School is a medium school) or school type (Thomas High School is a charter school).  
 
 ## Summary
